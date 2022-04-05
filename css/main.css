@@ -99,29 +99,45 @@ textarea {
 html {
   background-color: rgb(32, 44, 51);
   height: 100%;
+  font-size: 16px;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(201, 139, 84);
   padding: 2em;
-  font-size: 1.25em;
   height: 100%;
+}
+
+header {
+    font-size: 3em;
+}
+
+#main-text{
+    font-size: 1.5em;
+}
+
+header, #main-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
 }
 
 .wrapper {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
-  font-weight: 700;
 }
 
 .div-1, .div-2, .div-3 {
   display: flex;
+  flex-flow: row wrap;
   width: 30%;
   justify-content: center;
   align-items: center;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
   background-color: rgb(32, 44, 51);
   height: 300px;
   border: 15px ridge rgb(201, 139, 84);
